@@ -1,1 +1,1 @@
-# dickinson-portfolio-react
+# Dickinson Portfolio

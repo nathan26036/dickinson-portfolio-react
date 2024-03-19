@@ -17,8 +17,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
       A calendar app that can have events added and saved per user.
     </p>
-    <a href="https://github.com/JDeSan/CalPro" class="card-link">GitHub link</a>
-    <a href="https://cal-pro-da5d4fc988bc.herokuapp.com/login" class="card-link">Deployed link</a>
+    <a href="https://github.com/JDeSan/CalPro" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://cal-pro-da5d4fc988bc.herokuapp.com/login" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
 <div className="card p-2 col-3 text-center" aria-hidden="true">
@@ -30,8 +30,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
     Just another text editor.
     </p>
-    <a href="https://github.com/nathan26036/text-editor" class="card-link">GitHub link</a>
-    <a href="https://text-editor-qmgk.onrender.com" class="card-link">Deployed link</a>
+    <a href="https://github.com/nathan26036/text-editor" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://text-editor-qmgk.onrender.com" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div><div className="card p-2 col-3 text-center" aria-hidden="true">
   <img src={quiz} className="card-img-top" alt="quiz app"></img>
@@ -42,8 +42,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
       A coding challenge to test the users knowledge.
     </p>
-    <a href="https://github.com/nathan26036/code-quiz" class="card-link">GitHub link</a>
-    <a href="https://nathan26036.github.io/code-quiz/" class="card-link">Deployed link</a>
+    <a href="https://github.com/nathan26036/code-quiz" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://nathan26036.github.io/code-quiz/" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div><div className="card p-2 col-3 text-center" aria-hidden="true">
   <img src={weather} className="card-img-top" alt="weather app"></img>
@@ -54,8 +54,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
       A classic weather app that will gather weather from any city inputted.
     </p>
-    <a href="https://github.com/nathan26036/weather-dashboard" class="card-link">GitHub link</a>
-    <a href="https://nathan26036.github.io/weather-dashboard/" class="card-link">Deployed link</a>
+    <a href="https://github.com/nathan26036/weather-dashboard" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://nathan26036.github.io/weather-dashboard/" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div><div className="card p-2 col-3 text-center" aria-hidden="true">
   <img src={schedule} className="card-img-top" alt="work day schedular"></img>
@@ -66,8 +66,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
     A 9-5 work day schedular to help organize thoughts thoughout the day.
     </p>
-    <a href="https://github.com/nathan26036/work-day-scheduler" class="card-link">GitHub link</a>
-    <a href="https://nathan26036.github.io/work-day-scheduler/" class="card-link">Deployed link</a>
+    <a href="https://github.com/nathan26036/work-day-scheduler" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://nathan26036.github.io/work-day-scheduler/" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
 <div className="card p-2 col-3 text-center" aria-hidden="true">
@@ -79,8 +79,8 @@ export default function Portfolio() {
     <p className="card-text placeholder-glow">
       A standard notes app where the users add and delete notes.
     </p>
-    <a href="https://github.com/nathan26036/note-app" class="card-link">GitHub link</a>
-    <a href="https://frozen-wave-03507-b9886967daa0.herokuapp.com/" class="card-link">Deployed link</a>
+    <a href="https://github.com/nathan26036/note-app" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://frozen-wave-03507-b9886967daa0.herokuapp.com/" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
     </div>

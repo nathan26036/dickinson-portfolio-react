@@ -17,4 +17,4 @@ The goal of this project is to make a portfolio for myself. It should have four 
 ![A page titled Nathan dickinson with 6 cards with different projects](https://github.com/nathan26036/dickinson-portfolio-react/blob/main/src/assets/images/dickinson_portfolio.png?raw=true)
   
 ## Installation 
-The final code tutorial can be found at 
+The final code tutorial can be found at https://main--grand-shortbread-79ecd3.netlify.app/Portfolio

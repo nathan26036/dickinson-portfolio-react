@@ -1,97 +1,86 @@
+import calendar from '../assets/images/calendar_project.png'
+import note from '../assets/images/note_app.png'
+import schedule from '../assets/images/Schedule-screen.png'
+import quiz from '../assets/images/starting-screen.png'
+import weather from '../assets/images/weather-dash.png'
+import text from '../assets/images/jate_screenshot.png'
+
 export default function Portfolio() {
   return (
     <div className="d-flex flex-wrap p-4 gap-5 justify-content-center">
-<div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+<div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={calendar} className="card-img-top" alt="Calendar app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+      CalPro
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+      A calendar app that can have events added and saved per user.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/JDeSan/CalPro" class="card-link">GitHub link</a>
+    <a href="https://cal-pro-da5d4fc988bc.herokuapp.com/login" class="card-link">Deployed link</a>
   </div>
 </div>
-<div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+<div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={text} className="card-img-top" alt="text editor app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+      J.A.T.E 
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+    Just another text editor.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/nathan26036/text-editor" class="card-link">GitHub link</a>
+    <a href="https://text-editor-qmgk.onrender.com" class="card-link">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={quiz} className="card-img-top" alt="quiz app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+      Coding Quiz
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+      A coding challenge to test the users knowledge.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/nathan26036/code-quiz" class="card-link">GitHub link</a>
+    <a href="https://nathan26036.github.io/code-quiz/" class="card-link">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={weather} className="card-img-top" alt="weather app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+      Weather App
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+      A classic weather app that will gather weather from any city inputted.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/nathan26036/weather-dashboard" class="card-link">GitHub link</a>
+    <a href="https://nathan26036.github.io/weather-dashboard/" class="card-link">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={schedule} className="card-img-top" alt="work day schedular"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+    Work Day Schedular
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+    A 9-5 work day schedular to help organize thoughts thoughout the day.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/nathan26036/work-day-scheduler" class="card-link">GitHub link</a>
+    <a href="https://nathan26036.github.io/work-day-scheduler/" class="card-link">Deployed link</a>
   </div>
 </div>
-<div className="card p-2 col-3 " aria-hidden="true">
-  <img src="..." className="card-img-top" alt="..."></img>
+<div className="card p-2 col-3 text-center" aria-hidden="true">
+  <img src={note} className="card-img-top" alt="Notes app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
-      <span className="placeholder col-6"></span>
+      Notes App
     </h5>
     <p className="card-text placeholder-glow">
-      <span className="placeholder col-7"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-4"></span>
-      <span className="placeholder col-6"></span>
-      <span className="placeholder col-8"></span>
+      A standard notes app where the users add and delete notes.
     </p>
-    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    <a href="https://github.com/nathan26036/note-app" class="card-link">GitHub link</a>
+    <a href="https://frozen-wave-03507-b9886967daa0.herokuapp.com/" class="card-link">Deployed link</a>
   </div>
 </div>
     </div>

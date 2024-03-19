@@ -1,7 +1,13 @@
+import selfie from '../assets/me.jpg'
+
 export default function About() {
   return (
-    <div className=" row justify-content-center p-4">
+    <div>
+    <div className="row justify-content-center p-4">
       <h1 className="text-center col-3 pb-3 mb-4 border-bottom border-primary-subtle border-2">About Me</h1>
+    </div>
+    <div className='d-flex justify-content-center'>
+      <img src={selfie} class="rounded-circle" width="300" height="300"alt="A selfie I just took"></img>
       <p className="text-center">
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -10,6 +16,7 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+    </div>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Resume() {
       </p>
       <section className="d-flex flex-wrap gap-5 justify-content-center text-center">
         <div className="card col-3 bg-secondary">
-          <h4 className="card-title">Font-End Tech</h4>
+          <h4 className="card-title">Front-End Tech</h4>
           <p className="card-text">
             <ul>
               <li className="logo list-group-item">

@@ -15,6 +15,11 @@ function Footer() {
             <i class="fa-brands fa-linkedin"></i>
             </li>
           </a>
+          <a href="https://stackoverflow.com/users/23655615/nathan26036">
+            <li className="nav-item">
+            <i class="fa-brands fa-stack-overflow"></i>
+            </li>
+          </a>
         </ul>
     </footer>
   );

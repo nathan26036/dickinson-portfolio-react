@@ -6,9 +6,9 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-  <nav className="navbar bg-secondary-subtle border-bottom border-body p-3" data-bs-theme="dark">
-    <h1 className="text-primary-emphasis fs-1 ">Nathan Dickinson</h1>
-    <ul className="nav nav-underline fs-2 gap-4">
+  <nav className="navbar p-3 row bg-secondary-subtle border-bottom border-body " data-bs-theme="dark">
+    <h1 className="text-primary-emphasis text-center">Nathan Dickinson</h1>
+    <ul className="nav nav-underline fs-6 gap-4 justify-content-center">
       <li className="nav-item">
         <Link
           to="/"
@@ -16,7 +16,7 @@ function NavTabs() {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+          About Me <i class="fa-solid fa-user"></i>
         </Link>
       </li>
       <li className="nav-item">
@@ -25,7 +25,7 @@ function NavTabs() {
           // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Portfolio <i class="fa-solid fa-folder-open"></i>
         </Link>
       </li>
       <li className="nav-item">
@@ -34,7 +34,7 @@ function NavTabs() {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Contact <i class="fa-solid fa-address-book"></i>
         </Link>
       </li>
       <li className="nav-item">
@@ -44,7 +44,7 @@ function NavTabs() {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          Resume <i class="fa-solid fa-file"></i>
         </Link>
       </li>
     </ul>

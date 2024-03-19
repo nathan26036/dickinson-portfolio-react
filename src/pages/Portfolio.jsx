@@ -1,22 +1,99 @@
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="d-flex flex-wrap p-4 gap-5 justify-content-center">
+<div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
+<div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div><div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div><div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div><div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
+<div className="card p-2 col-3 " aria-hidden="true">
+  <img src="..." className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      <span className="placeholder col-6"></span>
+    </h5>
+    <p className="card-text placeholder-glow">
+      <span className="placeholder col-7"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+    </p>
+    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
     </div>
   );
 }

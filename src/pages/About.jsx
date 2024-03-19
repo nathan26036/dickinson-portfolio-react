@@ -9,7 +9,7 @@ export default function About() {
     <div className='d-flex justify-content-center'>
       <img src={selfie} class="rounded-circle" width="150" height="150"alt="A selfie I just took"></img>
     </div>
-      <p className="text-center pt-4 col-12">
+      <p className="text-center p-4 col-12">
       I am Nathan Dickinson. I graduated in the year 2022. I currently work at two jobs. My first job is at St. Barnabas and I am the IT assistant. I work on computers and help teachers. I have worked with the network and have done lots of troubleshooting at St.Barnabas. I'd like to think I have a great troubleshooting ability especially in the technology world. My second job is at lowes. I help customers and I work in paint and hardware. I've learned alot being at lowes 
       I've learned proper paining techniques from my older coworkers who love to share their knolwedge and i've learned alot about tools and hardware.
       <br></br>

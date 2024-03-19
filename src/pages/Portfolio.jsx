@@ -7,8 +7,8 @@ import text from '../assets/images/jate_screenshot.png'
 
 export default function Portfolio() {
   return (
-    <div className="d-flex flex-wrap p-4 gap-5 justify-content-center">
-<div className="card p-2 col-3 text-center" aria-hidden="true">
+    <div className="d-flex flex-wrap p-4 gap-5 justify-content-center container">
+<div className="card p-2 col-lg-3 col-sm-10 col-xs-10 col-xxs-10 text-center" aria-hidden="true">
   <img src={calendar} className="card-img-top" alt="Calendar app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
@@ -21,7 +21,7 @@ export default function Portfolio() {
     <a href="https://cal-pro-da5d4fc988bc.herokuapp.com/login" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
-<div className="card p-2 col-3 text-center" aria-hidden="true">
+<div className="card p-2 col-lg-3 col-sm-10 col-xs-10 text-center" aria-hidden="true">
   <img src={text} className="card-img-top" alt="text editor app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
@@ -33,7 +33,7 @@ export default function Portfolio() {
     <a href="https://github.com/nathan26036/text-editor" class="card-link btn btn-primary">GitHub link</a>
     <a href="https://text-editor-qmgk.onrender.com" class="card-link btn btn-primary">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+</div><div className="card p-2 col-lg-3 col-sm-10 col-xs-10 text-center" aria-hidden="true">
   <img src={quiz} className="card-img-top" alt="quiz app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
@@ -45,7 +45,7 @@ export default function Portfolio() {
     <a href="https://github.com/nathan26036/code-quiz" class="card-link btn btn-primary">GitHub link</a>
     <a href="https://nathan26036.github.io/code-quiz/" class="card-link btn btn-primary">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+</div><div className="card p-2 col-lg-3 col-sm-10 col-xs-10 text-center" aria-hidden="true">
   <img src={weather} className="card-img-top" alt="weather app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
@@ -57,7 +57,7 @@ export default function Portfolio() {
     <a href="https://github.com/nathan26036/weather-dashboard" class="card-link btn btn-primary">GitHub link</a>
     <a href="https://nathan26036.github.io/weather-dashboard/" class="card-link btn btn-primary">Deployed link</a>
   </div>
-</div><div className="card p-2 col-3 text-center" aria-hidden="true">
+</div><div className="card p-2 col-lg-3 col-sm-10 col-xs-10 text-center" aria-hidden="true">
   <img src={schedule} className="card-img-top" alt="work day schedular"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">
@@ -70,7 +70,7 @@ export default function Portfolio() {
     <a href="https://nathan26036.github.io/work-day-scheduler/" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
-<div className="card p-2 col-3 text-center" aria-hidden="true">
+<div className="card p-2 col-lg-3 col-sm-10 col-xs-10 text-center" aria-hidden="true">
   <img src={note} className="card-img-top" alt="Notes app"></img>
   <div className="card-body">
     <h5 className="card-title placeholder-glow">

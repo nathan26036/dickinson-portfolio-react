@@ -11,7 +11,7 @@ export default function Resume() {
       Feel free to download my resume above!
       </p>
       <section className="d-flex flex-wrap gap-5 justify-content-center text-center">
-        <div className="card col-3 bg-secondary">
+        <div className="card p-2 col-lg-3 col-sm-12 col-xs-12 bg-secondary">
           <h4 className="card-title">Front-End Tech</h4>
           <p className="card-text">
             <ul>
@@ -28,9 +28,9 @@ export default function Resume() {
           </p>
         </div>
 
-        <div className="card col-3 bg-secondary">
+        <div className="card p-2 col-lg-3 col-sm-12 col-xs-12 bg-secondary">
           <h4 className="card-title">Back-End Tech</h4>
-          <p className="card-text\">
+          <p className="card-text">
             <ul>
               <li className="logo list-group-item">
               <i class="fa-solid fa-terminal text-primary-emphasis"></i>
@@ -45,7 +45,7 @@ export default function Resume() {
             </ul>
           </p>
         </div>
-        <div className="card col-3 bg-secondary">
+        <div className="card p-2 col-lg-3 col-sm-12 col-xs-12 bg-secondary">
           <h4 className="card-title">Performance Tech</h4>
           <p className="card-text">
             <ul>

@@ -14,7 +14,7 @@ The goal of this project is to make a portfolio for myself. It should have four 
 * Created a helper for the contacts page to verify if the email is in correct email format and if not an error message will appear
 * Created html file which takes in all of these pages and actually gets them in html format
   
-![A page titled Nathan dickinson with 6 cards with different projects](https://github.com/nathan26036/dickinson-portfolio-react/blob/main/src/assets/images/dickinson_porfolio.png)
+![A page titled Nathan dickinson with 6 cards with different projects](https://github.com/nathan26036/dickinson-portfolio-react/blob/main/src/assets/images/dickinson_portfolio.png?raw=true)
   
 ## Installation 
 The final code tutorial can be found at 

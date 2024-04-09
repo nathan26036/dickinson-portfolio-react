@@ -4,7 +4,7 @@ import schedule from '../assets/images/Schedule-screen.png'
 import quiz from '../assets/images/starting-screen.png'
 import weather from '../assets/images/weather-dash.png'
 import text from '../assets/images/jate_screenshot.png'
-import planorama from '../assets/images/planorama-screenshot'
+import planorama from '../assets/images/planorama-screenshot.png'
 
 export default function Portfolio() {
   return (

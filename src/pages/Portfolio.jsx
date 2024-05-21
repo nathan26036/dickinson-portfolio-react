@@ -4,6 +4,7 @@ import schedule from '../assets/images/Schedule-screen.png'
 import quiz from '../assets/images/starting-screen.png'
 import weather from '../assets/images/weather-dash.png'
 import text from '../assets/images/jate_screenshot.png'
+import planorama from '../assets/images/planorama.png'
 
 export default function Portfolio() {
   return (
@@ -81,6 +82,19 @@ export default function Portfolio() {
     </p>
     <a href="https://github.com/nathan26036/note-app" class="card-link btn btn-primary">GitHub link</a>
     <a href="https://frozen-wave-03507-b9886967daa0.herokuapp.com/" class="card-link btn btn-primary">Deployed link</a>
+  </div>
+</div>
+<div className="card p-2 col-lg-3 col-sm-10 col-xs-10 col-xxs-10 text-center" aria-hidden="true">
+  <img src={planorama} className="card-img-top" alt="planorama app"></img>
+  <div className="card-body">
+    <h5 className="card-title placeholder-glow">
+      Planorama
+    </h5>
+    <p className="card-text placeholder-glow">
+      An event planner for companies to plan events.
+    </p>
+    <a href="https://github.com/nathan26036/Planorama" class="card-link btn btn-primary">GitHub link</a>
+    <a href="https://planorama.onrender.com" class="card-link btn btn-primary">Deployed link</a>
   </div>
 </div>
     </div>
